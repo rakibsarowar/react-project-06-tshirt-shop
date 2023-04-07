@@ -15,7 +15,7 @@ import OrderReview from './components/OrderReview/OrderReview';
 //Step04: crate laout in conponent which name can be, root, main, admin. Where 1/2 part will be common like header and other will be change able.
 // Step 05: our common section will be Header and after will use <Outlet> for route items.
 //Step06: Next we will set up children_ children:[{ }] in main jsx. and first child will be <Home> and path '/'
-//Step07: improve the Header with Nav manu by link & to.
+//Step07: improve the Header with Nav manu by link & to. & after usuing css, carefull to import in jsx.
 
 const router = createBrowserRouter([
 {
